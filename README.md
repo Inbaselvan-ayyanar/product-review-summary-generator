@@ -1,44 +1,46 @@
 Product Review Summary Generator
 
-Project Overview
+Project Overview:
 
 This project demonstrates the use of the Hugging Face transformers library to build an NLP pipeline capable of generating concise, summarized sentences from user-submitted product reviews. The main focus is on using the BART (Bidirectional and Auto-Regressive Transformers) model for conditional text generation, allowing businesses and consumers to quickly understand key points from product feedback.
 
-Features
+Features:
 
-Implementation of an NLP pipeline using Hugging Face transformers
+-> Implementation of an NLP pipeline using Hugging Face transformers
 
-Summarization of user reviews into concise sentences
+-> Summarization of user reviews into concise sentences
 
-Data manipulation using pandas
+->Data manipulation using pandas
 
-Requirements
+Requirements:
 
 Ensure the following packages are installed before running the code:
 
-Python 3.9.5
+-> Python 3.9.5
 
-Transformers library
+-> Transformers library
 
-PyTorch
+-> numpy
 
-Pandas
+-> Pandas
 
-Installation
+Installation:
 
 Clone the repository and install the required dependencies:
 
 git clone https://github.com/Inbaselvan-ayyanar/product-review-summary-generator.git
+
 cd product-review-summary-generator
+
 pip install -r requirements.txt
 
-Common Issues and Solutions
+Common Issues and Solutions:
 
-NameError related to imports: Ensure all packages are installed and up-to-date.
+-> NameError related to imports: Ensure all packages are installed and up-to-date.
 
-Compatibility issues: Verify that Python, transformers, and torch versions are compatible.
+-> Compatibility issues: Verify that Python, transformers, and torch versions are compatible.
 
-License
+License:
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
